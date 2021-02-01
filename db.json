@@ -42,7 +42,6 @@
     { "bikdi": "x71j23", "email": "klownpoet@coolness.com", "projects": [] },
     { "bikdi": "x61j23", "email": "mhmetal@readoas.com", "projects": [] }
   ],
-  "roles": ["admin", "developer", "devops", "billing"],
   "virtualMachines": [
     {
       "os": "RHEL 8",
