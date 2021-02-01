@@ -1,10 +1,8 @@
 {
   "orgs": [
-    { "tia": 70123, "name": "great org" },
-    { "tia": 42123, "name": "amazing org" },
-    { "tia": 61230, "name": "cool org" },
-    { "tia": 91239, "name": "nice org" },
-    { "tia": 18763, "name": "fun org" }
+    { "tia": 70123, "name": "great org", "projects": [1, 2] },
+    { "tia": 42123, "name": "amazing org", "projects": [3, 4] },
+    { "tia": 61230, "name": "cool org", "projects": [5] }
   ],
   "projects": [
     {
@@ -12,35 +10,52 @@
       "resources": {
         "virtualmachines": [],
         "loadbalancers": []
-      }
+      },
+      "users": []
     },
     {
       "name": "nodejs api",
       "resources": {
         "virtualmachines": [],
         "loadbalancers": []
-      }
+      },
+      "users": ["x91j23", "x81j23"]
     },
     {
       "name": "spring boot api",
       "resources": {
         "virtualmachines": [],
         "loadbalancers": []
-      }
+      },
+      "users": ["x71j23", "x11j23"]
     },
     {
       "name": "mongodb app",
       "resources": {
         "virtualmachines": [],
         "loadbalancers": []
-      }
+      },
+      "users": ["x61j23", "x21j23"]
+    },
+    {
+      "name": "postgres sql",
+      "resources": {
+        "virtualmachines": [],
+        "loadbalancers": []
+      },
+      "users": ["x51j23", "x31j23"]
     }
   ],
   "users": [
     { "bikdi": "x91j23", "email": "cool@gmail.com", "projects": [] },
     { "bikdi": "x81j23", "email": "manny@hotmail.com", "projects": [] },
     { "bikdi": "x71j23", "email": "klownpoet@coolness.com", "projects": [] },
-    { "bikdi": "x61j23", "email": "mhmetal@readoas.com", "projects": [] }
+    { "bikdi": "x61j23", "email": "jsJazz@readoas.com", "projects": [] },
+    { "bikdi": "x51j23", "email": "rbRock@readoas.com", "projects": [] },
+    { "bikdi": "x41j23", "email": "hpHiphop@readoas.com", "projects": [] },
+    { "bikdi": "x31j23", "email": "cmPunk@readoas.com", "projects": [] },
+    { "bikdi": "x21j23", "email": "slSooul@readoas.com", "projects": [] },
+    { "bikdi": "x11j23", "email": "bBlues@readoas.com", "projects": [] }
   ],
   "virtualMachines": [
     {
@@ -94,5 +109,8 @@
       }
     }
   ],
-  "loadbalancers": []
+  "loadbalancers": [
+    { "healthCheckType": "http", "pool": [1, 2], "projectId": 1 },
+    { "healthCheckType": "http", "pool": [3, 4], "projectId": 2 }
+  ]
 }
