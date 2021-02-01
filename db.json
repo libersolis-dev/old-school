@@ -93,56 +93,6 @@
         "city": "Palo Alto",
         "state": "California"
       }
-    },
-    {
-      "os": "Ubuntu",
-      "cpuCores": 4,
-      "ram": 16,
-      "location": {
-        "zone": "us-west-2",
-        "city": "Seattle",
-        "state": "Washington"
-      }
-    },
-    {
-      "os": "Kali Linux",
-      "cpuCores": 4,
-      "ram": 16,
-      "location": {
-        "zone": "us-west-2",
-        "city": "Seattle",
-        "state": "Washington"
-      }
-    },
-    {
-      "os": "Windows 7",
-      "cpuCores": 2,
-      "ram": 16,
-      "location": {
-        "zone": "us-west-2",
-        "city": "Seattle",
-        "state": "Washington"
-      }
-    },
-    {
-      "os": "Windows 11",
-      "cpuCores": 4,
-      "ram": 16,
-      "location": {
-        "zone": "us-west-2",
-        "city": "Seattle",
-        "state": "Washington"
-      }
-    },
-    {
-      "os": "Windows 10",
-      "cpuCores": 4,
-      "ram": 16,
-      "location": {
-        "zone": "us-west-2",
-        "city": "Seattle",
-        "state": "Washington"
-      }
     }
   ],
   "loadbalancers": []
