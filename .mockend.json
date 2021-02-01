@@ -1,5 +1,6 @@
 {
   "Post": {
+    "_id": "int",
     "title": "string",
     "views": "int",
     "published": "boolean",
@@ -7,6 +8,7 @@
     "comments": "Comment[]"
   },
   "Comment": {
+    "_id": "int",
     "body": "string",
     "post": "Post"
   }
