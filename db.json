@@ -1,0 +1,149 @@
+{
+  "orgs": [
+    { "tia": 70123, "name": "great org" },
+    { "tia": 42123, "name": "amazing org" },
+    { "tia": 61230, "name": "cool org" },
+    { "tia": 91239, "name": "nice org" },
+    { "tia": 18763, "name": "fun org" }
+  ],
+  "projects": [
+    {
+      "name": "webapp project",
+      "resources": {
+        "virtualmachines": [],
+        "loadbalancers": []
+      }
+    },
+    {
+      "name": "nodejs api",
+      "resources": {
+        "virtualmachines": [],
+        "loadbalancers": []
+      }
+    },
+    {
+      "name": "spring boot api",
+      "resources": {
+        "virtualmachines": [],
+        "loadbalancers": []
+      }
+    },
+    {
+      "name": "mongodb app",
+      "resources": {
+        "virtualmachines": [],
+        "loadbalancers": []
+      }
+    }
+  ],
+  "users": [
+    { "bikdi": "x91j23", "email": "cool@gmail.com", "projects": [] },
+    { "bikdi": "x81j23", "email": "manny@hotmail.com", "projects": [] },
+    { "bikdi": "x71j23", "email": "klownpoet@coolness.com", "projects": [] },
+    { "bikdi": "x61j23", "email": "mhmetal@readoas.com", "projects": [] }
+  ],
+  "roles": ["admin", "developer", "devops", "billing"],
+  "virtualMachines": [
+    {
+      "os": "RHEL 8",
+      "cpuCores": 8,
+      "ram": 64,
+      "location": {
+        "zone": "us-central-1",
+        "city": "Richmond",
+        "state": "virginia"
+      }
+    },
+    {
+      "os": "Ubuntu",
+      "cpuCores": 4,
+      "ram": 32,
+      "location": {
+        "zone": "us-central-2",
+        "city": "Plano",
+        "state": "Texas"
+      }
+    },
+    {
+      "os": "Kali Linux",
+      "cpuCores": 16,
+      "ram": 128,
+      "location": {
+        "zone": "us-east-1",
+        "city": "Atlanta",
+        "state": "Georgia"
+      }
+    },
+    {
+      "os": "Windows 95",
+      "cpuCores": 8,
+      "ram": 64,
+      "location": {
+        "zone": "us-east-2",
+        "city": "New York",
+        "state": "New York"
+      }
+    },
+    {
+      "os": "Windows 3.1",
+      "cpuCores": 4,
+      "ram": 64,
+      "location": {
+        "zone": "us-west-1",
+        "city": "Palo Alto",
+        "state": "California"
+      }
+    },
+    {
+      "os": "Ubuntu",
+      "cpuCores": 4,
+      "ram": 16,
+      "location": {
+        "zone": "us-west-2",
+        "city": "Seattle",
+        "state": "Washington"
+      }
+    },
+    {
+      "os": "Kali Linux",
+      "cpuCores": 4,
+      "ram": 16,
+      "location": {
+        "zone": "us-west-2",
+        "city": "Seattle",
+        "state": "Washington"
+      }
+    },
+    {
+      "os": "Windows 7",
+      "cpuCores": 2,
+      "ram": 16,
+      "location": {
+        "zone": "us-west-2",
+        "city": "Seattle",
+        "state": "Washington"
+      }
+    },
+    {
+      "os": "Windows 11",
+      "cpuCores": 4,
+      "ram": 16,
+      "location": {
+        "zone": "us-west-2",
+        "city": "Seattle",
+        "state": "Washington"
+      }
+    },
+    {
+      "os": "Windows 10",
+      "cpuCores": 4,
+      "ram": 16,
+      "location": {
+        "zone": "us-west-2",
+        "city": "Seattle",
+        "state": "Washington"
+      }
+    }
+  ],
+  "loadbalancers": []
+}
