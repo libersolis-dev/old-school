@@ -12,7 +12,7 @@
         "virtualmachines": [],
         "loadbalancers": []
       },
-      "users": []
+      "users": [1, 2]
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "virtualmachines": [],
         "loadbalancers": []
       },
-      "users": ["x91j23", "x81j23"]
+      "users": [3, 4]
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
         "virtualmachines": [],
         "loadbalancers": []
       },
-      "users": ["x71j23", "x11j23"]
+      "users": [5, 6, 7]
     },
     {
       "id": 4,
@@ -39,7 +39,7 @@
         "virtualmachines": [],
         "loadbalancers": []
       },
-      "users": ["x61j23", "x21j23"]
+      "users": [8]
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
         "virtualmachines": [],
         "loadbalancers": []
       },
-      "users": ["x51j23", "x31j23"]
+      "users": [9, 10]
     }
   ],
   "users": [
