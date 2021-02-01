@@ -1,12 +1,40 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "comments": "Comment[]"
+  "Org": {
+    "tia": "int",
+    "users": "User[]",
+    "name": "string",
+    "projects": "Project[]"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Project": {
+    "virtualmachines": "Virtualmachine[]",
+    "loadbalancers": "Loadbalancer[]"
+  },
+  "User": {
+    "nId": "string",
+    "kibId": "string",
+    "email": "string",
+    "projects": "Project[]",
+    "roles": "Role[]"
+  },
+  "Role": {
+    "ie": "string",
+    "td": "string",
+    "to": "string",
+    "do": "string"
+  },
+  "Virtualmachine": {
+    "os": "string",
+    "cpuCores": "int",
+    "memory": "int",
+    "powerState": "string",
+    "zone": "string",
+    "projectId": "Project"
+  },
+  "Loadbalancer": {
+    "healthcheck": "string",
+    "algo": "string",
+    "virtualmachines": "Virtualmachine[]",
+    "zone": "string",
+    "projectId": "Project"
   }
 }
